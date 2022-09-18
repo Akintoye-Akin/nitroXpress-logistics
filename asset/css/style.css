@@ -4,25 +4,53 @@
   box-sizing: border-box;
 }
 
+.container-search h5 {
+  color: white;
+  padding: 10px 70px;
+  font-size: 20px;
+  z-index: 1;
+}
+
 span {
   color: red;
+}
+
+span-2 {
+  color: red;
+  font-size: 30px;
 }
 
 header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 30px 10%;
+  padding: 30px 8%;
   background: transparent;
 }
 
-li,
-a,
 button {
   font-weight: 500;
   font-size: 16px;
   text-decoration: none;
   color: #FFF;
+  background: red;
+}
+
+.navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link {
+  color: white;
+}
+.navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link:hover {
+  color: red;
+  transition: ease-out 2s;
+}
+
+.container-search .d-flex .btn {
+  background: red;
+  color: white;
+}
+
+.container-search .d-flex .btn:hover {
+  background: rgb(218, 99, 99);
 }
 
 .logo {
@@ -32,20 +60,11 @@ button {
 
 nav ul li {
   display: inline-block;
-  padding: 0px 40px;
-}
-
-nav ul li a {
-  transition: all 0.3s ease 0s;
-}
-
-nav ul li a:hover {
-  color: red;
-  transition: all 0.3s ease 0s;
+  padding: 2px 15px;
 }
 
 header > button {
-  padding: 9px 25px;
+  padding: 8px 20px;
   background-color: red;
   border: none;
   border-radius: 50px;
@@ -54,7 +73,8 @@ header > button {
 }
 
 header > button:hover {
-  background-color: rgba(0, 136, 169, 0.8);
+  background-color: white;
+  color: black;
 }
 
 .big-container {
@@ -94,60 +114,16 @@ header > button:hover {
   line-height: 2;
 }
 
-.btn {
-  display: inline-block;
-  font-weight: 400;
-  color: #212529;
-  text-align: center;
-  vertical-align: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  background-color: transparent;
-  border: 1px solid transparent;
-  padding: .375rem .75rem;
-  font-size: 1rem;
-  line-height: 1.5;
-  border-radius: .25rem;
-  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-}
-
-.btn-outline {
-  border-radius: 30px;
-  color: #ffffff;
-  border-color: #ffffff;
-  padding: 12px 30px;
-  font-weight: 700;
-  cursor: pointer;
-  outline: none;
-}
-
-.btn-outline:hover {
-  background: #ffffff;
-  color: red;
-}
-
 i.fa {
   margin-right: 10px;
 }
 
-.content ul {
-  list-style: none;
-  display: flex;
-  margin-top: 30px;
-}
+.content .container-search button {
 
-.content li {
-  margin: 10px;
-}
-
-.content ul li a:hover{
-  color: red;
-}
+} 
 
 .m-50 {
-  margin: 50px;
+  margin: 30px;
 }
 
 .py-100 {
@@ -155,3 +131,90 @@ i.fa {
   padding-bottom: 100px;
 }
 
+/*---- new ------*/
+.delivery-container {
+  background: rgb(221, 218, 218);
+  padding: 50px 0;
+}
+
+.delivery-container .service-container {
+  background: white;
+  border-radius: 10px;
+  border: 2px solid rgb(221, 218, 218);
+}
+
+.delivery-container .service-container .row .col {
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.delivery-container .service-container .row .col:hover {
+  background: rgb(0, 0, 0);
+  color: whitesmoke;
+  font-weight: 700;
+}
+
+.icon {
+  color: red;
+}
+
+.app-container .container h2 {
+  justify-content: center;
+  margin-top: 150px;
+  font-size: 50px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.app-container .container .image {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.app-container .container .app button {
+  color: white;
+}
+
+.app-container .container .app button:hover {
+  transition: all 0.9s ease 0s;
+}
+
+.information-container .container-fluid {
+  background: rgb(221, 218, 218);
+  padding: 0px 0px;
+  margin-top: 50px;
+}
+
+.information-container .container-fluid .container .text-container .row {
+  justify-content: space-between;
+  margin: 50px 0px;
+  padding: 50px 0;
+}
+
+.information-container .container-fluid .container .text-container .row h4 {
+  font-size: 20px;
+  font-weight: 200;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+.information-container .container-fluid h3{
+  padding-top: 100px;
+}
+
+.information-container .container-fluid .text-container .col p {
+  justify-content: flex-start;
+  font-size: 15px;
+  /* padding: 10px 10px; */
+  margin: 0 0px
+}
+
+.footer h6 a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer h6 a:hover {
+  color: red;
+}

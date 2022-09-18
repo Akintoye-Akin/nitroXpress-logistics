@@ -5,7 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="asset/css/style.css">
+  <link rel="stylesheet" href="asset/css/bootstrap.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Spectral"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
   <script src="https://kit.fontawesome.com/6226d937cc.js" crossorigin="anonymous"></script>
   <title>NitroXpress Delivery | Homepage </title>
 </head>
@@ -17,16 +19,31 @@
       <h1 class="logo">Nitro<span>X</span>press</h1>
 
       <!-- Navbar section -->
-      <nav>
-        <ul>
-          <li><a href="home">Home</a></li>
-          <li><a href="Our Product">Product</a></li>
-          <li><a href="Our services">Services</a></li>
-          <li><a href="order">Order</a></li>
-        </ul>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active " aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">Our Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#">Pricing</a>
+              </li> 
+              <li class="nav-item">
+                <a class="nav-link " href="#">About Us</a>
+              </li> 
+            </ul>
+          </div>
+        </div>
       </nav>
       
-      <button> <i class="fa fa-envelope-o"></i>Contact us </button>
+      <button><i class="fa-solid fa-user"></i> Sign In/Sign Up</button>
 
     </header>
 
@@ -34,28 +51,149 @@
     <div class="content">
       <div class="hero-info m-50" style="flex-basis: 640px;">
         <h1><span>Deliveries</span> Made Easy<span>.</span></h1>
-        <p>Having issues with getting your items delivered safely and intact? NitroXpress Logistcs is a delivery outlet that is always at your finger tips having in mind that we always on time wth your items. We are a Gen-z delivery outlet that make use of innovative and technological input in getting goods/items/package delivered on time</p>
-
-        <a class="btn btn-outline" href="https://www.google.com" target="_blank"> <i
-          class="fa fa-box"></i> Place Your Order</a>
+        <p>Having issues with getting your items delivered safely and intact? Nitro<span-2>X</span-2>press Logistcs is a delivery outlet that is always at your finger tip. We are a Gen-z delivery outlet that make use of innovative and technological input in getting goods/items/package delivered on time</p>
         
-        <ul>
-          <li><a href="http://twitter.com/Akinthoye"><i class="fa fa-twitter"></i>twitter</a></li>
-          <li><a href="http://www.facebook.com/ibrahimakintoye"><i class="fa fa-facebook"></i>facebook</a></li>
-          <li><a href="#"><i class="fa fa-instagram"></i>Instagram</a></li>
-        </ul>
+      <div class="container-search">
+        <h5> SEND. <span>TRACK.</span> RECIEVE</h5>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn" type="submit">Search</button>
+        </form>
+      </div>
       </div>
 
       
-
       <img src="asset/image/undraw_deliveries_2r4y.svg" alt="">
       <!-- <img src="./asset/image/pexels-nataliya-vaitkevich-8939520.jpg" alt=""> -->
     </div>
-
-    <!-- <footer id="Main-footer">
-      <p>Copyright &copy; 2022, NitroXpress, All Rghts Reserved</p>
-    </footer> -->
-
   </div>
+
+  <div class="delivery-container">
+    <div class="container-fluid">
+      <div class="container">
+        <h2 class="text-dark text-center mt-5 mb-3">Delivery Service</h2>
+        <div class="service-container">
+          <div class="container text-center">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 gap-0.5 border">
+              <div class="col border">
+                <div class="icon mt-5 px-3 text-start"><i class="fa-solid fa-truck-fast fa-4x"></i></div>
+                <h3 class="mt-5 px-3 text-dark text-start">Ship Now</h3>
+                <p class="mt-3 px-3 text-dark text-start">Request pick-up/Delivery and <span>Xpress</span> Drop-off</p>
+              </div>
+              <div class="col border">
+                <div class="icon mt-5 px-3 text-start"><i class="fa-solid fa-map-location fa-4x"></i></div>
+                <h3 class="mt-5 px-3 text-dark text-start">Track items</h3>
+                <p class="mt-3 px-3 text-start text-dark">Track your package and get real-time updates</p>
+              </div>
+              <div class="col border">
+                <div class="icon mt-5 px-3 text-start"><i class="fa-solid fa-weight-scale fa-4x"></i></div>
+                <h3 class="mt-5 px-3 text-dark text-start">Weigh items</h3>
+                <p class="mt-3 px-3 text-start text-dark">Weigh your item and get a quick quote </p>
+              </div>
+              <div class="col border">
+                <div class="icon mt-5 px-3 text-start"><i class="fa-sharp fa-solid fa-location-crosshairs fa-4x"></i></div>
+                <h3 class="mt-5 px-3 text-dark text-start">Locate Us</h3>
+                <p class="mt-3 px-3 text-start text-dark">Check if we are available in your vicinity</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="app-container">
+    <div class="container-fluid">
+      <div class="container text-start">
+        <div class="row">
+          <div class="col">
+            <h2>Nitro<span>X</span>, the app for fast <br> and reliable <br> delivery<span>.</span></h2>
+            <div class="app d-flex flex-row">
+              <div class="p-2">
+                <div class="button">
+                  <button class="d-flex col py-3 px-4 text-start btn btn-danger"><i class="bi bi-google-play"></i>Google Play</button>
+                </div>
+              </div>
+              <div class="p-2">
+                <div class="button">
+                  <button class="d-flex col py-3 px-4 text-start btn btn-danger"><i class="bi bi-apple"></i></i>App store</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="image col">
+            <img src="asset/image/mock-up.png" alt="">
+          </div>
+        </div>   
+      </div>
+    </div>
+  </div>
+
+  <div class="information-container">
+    <div class="container-fluid">
+      <div class="container">
+        <h3 class="text-start">We make <br> <span>delivery problem very easy <br> for you to solve.</span></h3>
+        <div class="text-container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 ">
+            <div class="col">
+              <div class="icon  text-start"><i class="fa-solid fa-mobile fa-3x"></i></i></div>
+              <h4 class="text-dark text-start">Latest Technology</h4>
+              <p class="text-dark text-start">Technology and its application are fundamental at GIGL. We understand the role of technology in providing an exceptional customer experience. For this reason, our processes, products and services are built around modern technology to help us deliver your shipments cheaper, safely and at the speed of light</p>
+            </div>
+            <div class="col">
+              <div class="icon text-start"><i class="fa-solid fa-users fa-3x"></i></i></div>
+              <h4 class="text-dark text-start">Social Commerce</h4>
+              <p class="text-start text-dark">Pivotal to successful social commerce transactions is the ability for the end-user to receive items where and when needed. With an unmatched route network spanning urban and rural communalities, GIGL is the solution to efficient last-mile delivery. As a merchant, you only have to think about selling your products while GIGL delivers to your customers worldwide</p>
+            </div>
+            <div class="col">
+              <div class="icon text-start"><i class="fa-solid fa-cart-flatbed fa-3x"></i></i></div>
+              <h4 class="text-dark text-start">Guaranteed Delivery</h4>
+              <p class="text-start text-dark">We are conscious of the relationship between time and money and utilize our resources optimally to meet your delivery needs. Our service commitment to you is hassle-free delivery. We are large enough to efficiently handle deliveries for large corporations yet small enough to deploy innovative delivery solutions that help small businesses</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <div class="footer text-center">
+    <div class="row">
+      <div class="col">
+        <h6>© 2022 NitroXpress</h6>
+      </div>
+      <div class="col">
+        <div class="d-flex flex-column mb-3 text-start">
+          <h5 class="p-2">Company</h5>
+          <h6 class="p-2"><a href="#">Our services</a></h6>
+          <h6 class="p-2"><a href="#">About Us</a></h6>
+          <h6 class="p-2"><a href="#">Pricing</a></h6>
+          <h6 class="p-2"><a href="#">Terms & Conditions</a></h6>
+        </div>
+      </div>
+      <div class="col">
+        <div class="d-flex flex-column mb-3 text-start">
+          <h5 class="p-2">Get Started</h5>
+          <h6 class="p-2"><a href="#">Schedule Pickup</a></h6>
+          <h6 class="p-2"><a href="#">Get a Quote</a></h6>
+          <h6 class="p-2"><a href="#">Nitro Booster</a></h6>
+          <h6 class="p-2"><a href="#">Report issues</a></h6>
+        </div>
+      </div>
+      <div class="col">
+        <div class="d-flex flex-row mb-3 text-center">
+          <h5 class="p-2">Get Started</h5>
+        </div>
+        <div class="d-flex flex-row mb-3 text-center text-dark">
+          <div class="icons p-2 text-dark"><a  href="#"><i class="fa-brands fa-facebook"></i></a></div>
+          <div class="icons p-2"><a href="#"><i class="fa-brands fa-twitter"></i></a></div>
+          <div class="icons p-2"><a class="text-dark" href="#"><i class="fa-brands fa-instagram"></i></a></div>
+          <div class="icons p-2"><a class="text-success" href="#"><i class="fa-brands fa-whatsapp"></i></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/bootstrap.bundle.js"></script>
 </body>
 </html>
